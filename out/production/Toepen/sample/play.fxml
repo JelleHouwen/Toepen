@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="932.0" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.PlayController">
+  <children>
+    <Rectangle fx:id="card1" arcHeight="5.0" arcWidth="5.0" height="156.0" layoutX="266.0" layoutY="549.0" onMouseClicked="#selecteerKaart1" stroke="BLACK" strokeType="INSIDE" width="90.0">
+      <fill>
+        <Color blue="0.400" green="0.400" red="1.000" fx:id="x1" />
+      </fill>
+    </Rectangle>
+    <Button fx:id="btnSpeelKaart" layoutX="808.0" layoutY="597.0" mnemonicParsing="false" onAction="#speelKaart" text="Speel Kaart" />
+    <Rectangle fx:id="card2" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="356.0" layoutY="549.0" onMouseClicked="#selecteerKaart2" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+    <Rectangle fx:id="card3" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="446.0" layoutY="549.0" onMouseClicked="#selecteerKaart3" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+    <Rectangle fx:id="card4" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="536.0" layoutY="549.0" onMouseClicked="#selecteerKaart4" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+    <Rectangle fx:id="card7" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="90.0" layoutX="417.0" layoutY="33.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+    <Rectangle fx:id="card6" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="90.0" layoutX="332.0" layoutY="33.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+    <Rectangle fx:id="card5" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="90.0" layoutX="242.0" layoutY="33.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+    <Rectangle fx:id="card8" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="90.0" layoutX="507.0" layoutY="33.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="156.0" />
+    <Label fx:id="lbCard1" layoutX="266.0" layoutY="549.0" prefHeight="34.0" prefWidth="49.0" text="Label">
+      <font>
+        <Font size="20.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label fx:id="lbCard2" font="$x2" layoutX="356.0" layoutY="549.0" prefHeight="34.0" prefWidth="49.0" text="Label" />
+    <Label fx:id="lbCard3" font="$x2" layoutX="446.0" layoutY="549.0" prefHeight="34.0" prefWidth="49.0" text="Label" />
+    <Label fx:id="lbCard4" font="$x2" layoutX="536.0" layoutY="549.0" prefHeight="34.0" prefWidth="49.0" text="Label" />
+    <Label fx:id="lbCard5" font="$x2" layoutX="220.0" layoutY="289.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Label fx:id="lbCard6" font="$x2" layoutX="220.0" layoutY="199.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Label fx:id="lbCard7" font="$x2" layoutX="220.0" layoutY="109.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Label fx:id="lbCard8" font="$x2" layoutX="220.0" layoutY="19.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Rectangle fx:id="card14" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="40.0" layoutY="242.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Rectangle fx:id="card15" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="40.0" layoutY="332.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Rectangle fx:id="card16" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="40.0" layoutY="422.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Rectangle fx:id="card13" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="40.0" layoutY="152.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Label fx:id="lbCard16" font="$x2" layoutX="114.0" layoutY="454.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Label fx:id="lbCard15" font="$x2" layoutX="114.0" layoutY="365.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Label fx:id="lbCard14" font="$x2" layoutX="114.0" layoutY="275.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Label fx:id="lbCard13" font="$x2" layoutX="114.0" layoutY="196.0" prefHeight="34.0" prefWidth="49.0" text="" />
+    <Rectangle fx:id="card12" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="262.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Rectangle fx:id="card11" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="352.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Rectangle fx:id="card10" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="442.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Rectangle fx:id="card9" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="532.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Label fx:id="lbCard12" font="$x2" layoutX="262.0" layoutY="134.0" prefHeight="34.0" prefWidth="49.0" rotate="180.0" text="" />
+    <Label fx:id="lbCard11" font="$x2" layoutX="352.0" layoutY="136.0" prefHeight="34.0" prefWidth="49.0" rotate="180.0" text="" />
+    <Label fx:id="lbCard10" font="$x2" layoutX="442.0" layoutY="135.0" prefHeight="34.0" prefWidth="49.0" rotate="180.0" text="" />
+    <Label fx:id="lbCard9" font="$x2" layoutX="532.0" layoutY="136.0" prefHeight="34.0" prefWidth="49.0" rotate="180.0" text="" />
+    <Label fx:id="lbAanZet" layoutX="14.0" layoutY="14.0" prefHeight="34.0" prefWidth="231.0" text="aan zet:">
+      <font>
+        <Font size="25.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Rectangle fx:id="laatsteKaart2" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="90.0" layoutX="368.0" layoutY="200.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="156.0" />
+    <Rectangle fx:id="laasteKaart1" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="405.0" layoutY="378.0" onMouseClicked="#selecteerKaart4" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Label fx:id="lbLaatsteKaart2" font="$x2" layoutX="401.0" layoutY="296.0" rotate="180.0" text="Label" visible="false" />
+    <Label fx:id="lbLaatsteKaart1" font="$x2" layoutX="403.0" layoutY="382.0" rotate="0.0" text="Label" visible="false" />
+    <Label fx:id="lbRonde" font="$x2" layoutX="739.0" layoutY="18.0" text="Label" />
+    <Label fx:id="lbScore1" font="$x2" layoutX="725.0" layoutY="72.0" prefWidth="207.0" text="Label" />
+    <Label fx:id="lbScore2" font="$x2" layoutX="725.0" layoutY="99.0" prefWidth="207.0" text="Label" />
+    <Label fx:id="lbNaamSpeler2" font="$x2" layoutX="548.0" layoutY="168.0" prefWidth="156.0" text="Label" />
+    <Label fx:id="lbNaamSpeler1" font="$x2" layoutX="290.0" layoutY="517.0" prefWidth="156.0" text="Label" />
+    <Label fx:id="lbSelecteerEenKaart" font="$x3" layoutX="703.0" layoutY="556.0" text="Selecteer een kaart" textFill="#ff3333" visible="false" />
+    <Button fx:id="btnTerugNaarLobby" layoutX="307.0" layoutY="339.0" mnemonicParsing="false" onAction="#toLobby" text="terug naar lobby" visible="false">
+      <font>
+        <Font size="30.0" />
+      </font>
+    </Button>
+    <Label fx:id="lbVoorbij" layoutX="237.0" layoutY="242.0" text="Het spel is voorbij!" visible="false">
+      <font>
+        <Font size="50.0" />
+      </font>
+    </Label>
+    <Rectangle fx:id="selectedCard" arcHeight="5.0" arcWidth="5.0" fill="$x1" height="156.0" layoutX="105.0" layoutY="272.0" onMouseClicked="#selecteerKaart4" stroke="BLACK" strokeType="INSIDE" visible="false" width="90.0" />
+    <Label fx:id="lbSelectedCard" font="$x2" layoutX="105.0" layoutY="272.0" prefHeight="34.0" prefWidth="49.0" text="Label" />
+    <Label layoutX="85.0" layoutY="233.0" text="geselecteerde kaart" />
+    <Label fx:id="lbBekenSoort" font="$x3" layoutX="363.0" layoutY="471.0" text="Beken de soort" textFill="RED" visible="false" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.RegisterController">
+  <children>
+    <TextField fx:id="username" layoutX="185.0" layoutY="81.0" prefWidth="200.0" />
+    <Label layoutX="185.0" layoutY="61.0" text="gebruikersnaam" />
+    <Label layoutX="185.0" layoutY="113.0" text="wachtwoord" />
+    <Label layoutX="185.0" layoutY="167.0" text="herhaal wachtwoord" />
+    <Button layoutX="230.0" layoutY="241.0" mnemonicParsing="false" onAction="#validate" text="registreer" />
+    <Button layoutX="492.0" layoutY="34.0" mnemonicParsing="false" onAction="#exitToLogin" text="terug" />
+    <Label fx:id="lbAndereWachtwoorden" layoutX="168.0" layoutY="213.0" text="wachtwoorden komen niet overeen" textFill="RED" visible="false" />
+    <Label fx:id="lbAlleVelden" layoutX="41.0" layoutY="84.0" text="Vul alle velden in" textFill="RED" visible="false" />
+    <PasswordField fx:id="password" layoutX="185.0" layoutY="133.0" prefWidth="200.0" />
+    <PasswordField fx:id="confirmPassword" layoutX="185.0" layoutY="187.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

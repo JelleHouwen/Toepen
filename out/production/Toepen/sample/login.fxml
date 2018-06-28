@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.MainController">
+  <children>
+    <Button layoutX="115.0" layoutY="231.0" mnemonicParsing="false" onAction="#validate" text="login" />
+    <TextField fx:id="gebruikersnaam" layoutX="63.0" layoutY="97.0" prefWidth="200.0" />
+    <PasswordField fx:id="wachtwoord" layoutX="63.0" layoutY="161.0" prefWidth="200.0" />
+    <Label layoutX="63.0" layoutY="77.0" text="gebruikersnaam" />
+    <Label layoutX="63.0" layoutY="141.0" text="wachtwoord" />
+    <Button layoutX="409.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleButtonAction" text="register" />
+    <Label layoutX="359.0" layoutY="211.0" text="nog geen account?" />
+    <Label fx:id="alleVelden" layoutX="282.0" layoutY="100.0" text="Vul alle velden in" textFill="RED" visible="false" />
+    <Label fx:id="errorLogin" layoutX="14.0" layoutY="190.0" text="gebruikersnaam en wachtwoord komen niet overeen" textFill="RED" visible="false" />
+  </children>
+</AnchorPane>

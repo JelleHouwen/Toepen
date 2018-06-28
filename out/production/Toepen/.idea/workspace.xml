@@ -1,0 +1,1697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="animatie images veranderd naar spritesheets. skillfireball spritesheet is alleen nog maar 1 kant op">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Database/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Database/Repository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Interfaces/IDBAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repository/RepAccount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Toepen/Spel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Toepen/Speler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/MainController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/Register.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/RegisterController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/login.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/AccountTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/ChatMessageTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/GameTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/LobbyTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/ShopTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/TeamTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/characters/AbstractUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UnitTests/mercenaries/classes/characters/HeadlessKnightTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/Account.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/Characters/AbstractUnit$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/Characters/AbstractUnit$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/Characters/AbstractUnit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/ChatMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/Game.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/Classes/Lobby.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/Game$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/Map.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/Shop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/Team.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/characters/HeadlessKnight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/AbstractSkill$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/AbstractSkill$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/AbstractSkill.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/Bomb$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/Bomb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/SkillFireball$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/SkillFireball.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/SkillFirewall$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/classes/skills/SkillFirewall.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/components/Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/components/GameServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/components/LobbyServer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/enums/Direction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/enums/GameMode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/globals/Cryptography.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/globals/CurrentUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/globals/DisplayScreen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/database/IDBAccount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/database/IShopObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IAbstractSkill.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IAbstractUnit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IAccount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/ICharacter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IChatMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/ILobby.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IMap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/IShop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/ISkillFireball.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/ISkillFirewall.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/interfaces/domain/ITeam.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/persistancies/MSSQL_Server.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/repositories/RepAccount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/ChooseUnit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/LobbyScreen.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/Login.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/Play.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/Register.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/objects/AbstractButton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/objects/btnParalleloGram.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Mercenaries/Mercenaries/ui/objects/btnRectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/Cyborg_down/Pirate_D.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/Cyborg_left/Pirate_L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/Cyborg_right/Pirate_R.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/Cyborg_up/Pirate_U.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/SkillBomb/Barrel_Front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/SkillBomb/Barrel_Side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/SkillBomb/Skill_Barrel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/down/Pal_Walk_D.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_D_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_D_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_D_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_D_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_D_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_L_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_L_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_L_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_L_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_L_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_R_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_R_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_R_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_R_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_R_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_U_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_U_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_U_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_U_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/fireballAnimation/Fireball_U_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Front.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Front_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Front_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Front_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Front_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Side.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Side_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Side_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Side_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/firewallAnimation/Firewall_Side_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/left/Pal_Walk_L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/right/Pal_Walk_R.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/animation/up/Pal_Walk_U.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Background2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Fireball.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Heart - Copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/ScifiTileset.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Skill_Firewall.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/Skill_Orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/btnDark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/btnLight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/btnParalleloGramLight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/btnParallelogramDark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/tiled/Map1.tmx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/Account.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/ChatMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/Game.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/Lobby.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/Map.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/Shop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/Team.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/characters/AbstractUnit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/characters/HeadlessKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/characters/Pirate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/skills/AbstractSkill.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/skills/Bomb.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillBomb.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillFireball.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillFirewall.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillOrange.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/components/Client.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/components/GameServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/components/LobbyServer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/enums/Direction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/enums/GameMode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/globals/CurrentUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/globals/DisplayScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/globals/Repository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/database/IDBAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/database/IDBrmi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/database/IShopObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IAbstractSkill.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IAbstractUnit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/ICharacter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IChatMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IGame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/ILobby.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IShop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/ISkillFireball.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/ISkillFirewall.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/interfaces/domain/ITeam.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/persistancies/MSSQL_Server.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/repositories/RepAccount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/repositories/RepRMI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/ChooseUnit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/LobbyScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/Login.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/Play.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/Register.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/objects/AbstractButton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/objects/btnParalleloGram.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/mercenaries/ui/objects/btnRectangle.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/Mercenaries.iml" afterPath="$PROJECT_DIR$/.idea/Toepen.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/mercenaries/globals/Cryptography.java" afterPath="$PROJECT_DIR$/src/Database/Cryptography.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Toepen$Main.coverage" NAME="Main Coverage Results" MODIFIED="1497740418309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sample.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Lobby.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Toepen/Lobby.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/RoomController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/room.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/GameServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kaart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Toepen/Kaart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="859">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#1216#1217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Toepen/Spel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="170" column="157" lean-forward="false" selection-start-line="170" selection-start-column="157" selection-end-line="170" selection-end-column="157" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/PlayController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/play.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Speler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Toepen/Speler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpelerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitTests/Toepen/SpelerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Class" />
+        <option value="JUnit3 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>kaartenoptafel</find>
+      <find>checkwi</find>
+      <find>checkwinnaar</find>
+      <find>system</find>
+      <find>eer</find>
+      <find>eertse</find>
+      <find>system.</find>
+      <find>laatste</find>
+      <find>calculatehighest</find>
+      <find>nextround</find>
+      <find>ronde</find>
+      <find>in hand</find>
+      <find>hoog</find>
+      <find>hoogste</find>
+      <find>remo</find>
+      <find>gamestarted</find>
+      <find>calc</find>
+      <find>ca</find>
+      <find>selecteer</find>
+      <find>next</find>
+      <find>calcu</find>
+      <find>is aan</find>
+      <find>lbselec</find>
+      <find>kaartspelen</find>
+      <find>speelkaart</find>
+      <find>remove</find>
+      <find>check</find>
+      <find>tolo</find>
+      <find>btnterug</find>
+      <find>setge</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jelle Houwen" />
+      </list>
+    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/mercenaries/interfaces/domain/ITeam.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/characters/AbstractUnit.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/components/LobbyServer.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/ui/ChooseUnit.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IGame.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/globals/GameSession.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/Game.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/ui/LobbyScreen.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/Team.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillSonicSpeed.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/characters/Cyborg.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/characters/Pirate.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/interfaces/domain/IAbstractSkill.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillOrange.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillBomb.java" />
+        <option value="$PROJECT_DIR$/lib/slick.jar!/org/newdawn/slick/SpriteSheet.class" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillFireball.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/SkillFirewall.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/ui/Play.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/AbstractSkill.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/ui/Main.java" />
+        <option value="$PROJECT_DIR$/src/mercenaries/classes/skills/Bomb.java" />
+        <option value="$PROJECT_DIR$/lib/slick.jar!/org/newdawn/slick/Image.class" />
+        <option value="$PROJECT_DIR$/src/sample/lobby.fxml" />
+        <option value="$PROJECT_DIR$/src/Enums/Soort.java" />
+        <option value="$PROJECT_DIR$/src/Enums/Waarde.java" />
+        <option value="$PROJECT_DIR$/src/sample/login.fxml" />
+        <option value="$PROJECT_DIR$/src/Toepen/Session.java" />
+        <option value="$PROJECT_DIR$/src/sample/MainController.java" />
+        <option value="$PROJECT_DIR$/src/Repository/RepAccount.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/IDBAccount.java" />
+        <option value="$PROJECT_DIR$/src/Database/Database.java" />
+        <option value="$PROJECT_DIR$/src/sample/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Register.fxml" />
+        <option value="$PROJECT_DIR$/src/Interfaces/ILobbyServer.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/ILobby.java" />
+        <option value="$PROJECT_DIR$/src/Toepen/Kaart.java" />
+        <option value="$PROJECT_DIR$/src/sample/room.fxml" />
+        <option value="$PROJECT_DIR$/src/Toepen/Speler.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/ISpeler.java" />
+        <option value="$PROJECT_DIR$/src/sample/RoomController.java" />
+        <option value="$PROJECT_DIR$/src/sample/LobbyController.java" />
+        <option value="$PROJECT_DIR$/src/Components/LobbyServer.java" />
+        <option value="$PROJECT_DIR$/src/Components/Client.java" />
+        <option value="$PROJECT_DIR$/src/Interfaces/ISpel.java" />
+        <option value="$PROJECT_DIR$/src/sample/play.fxml" />
+        <option value="$PROJECT_DIR$/src/Toepen/Spel.java" />
+        <option value="$PROJECT_DIR$/src/Toepen/Lobby.java" />
+        <option value="$PROJECT_DIR$/src/sample/PlayController.java" />
+        <option value="$PROJECT_DIR$/src/Components/GameServer.java" />
+        <option value="$PROJECT_DIR$/UnitTests/Toepen/SpelerTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UnitTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Toepen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Classes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Mercenaries">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Classes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Characters">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mercenaries - kopie" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="ToolWindowDebug.ShowToolbar" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Toepen" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\resources" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\libs" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\lib" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\libs" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\src\UI" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\src" />
+      <recent name="C:\Users\Jelle\IdeaProjects\Toepen\Toepen" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SpelerTest">
+    <configuration default="false" name="LobbyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Components.LobbyServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Toepen" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpelerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Toepen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Toepen" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Toepen" />
+      <option name="MAIN_CLASS_NAME" value="Toepen.SpelerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Mercenaries" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LobbyServer" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpelerTest" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpelerTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LobbyServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1490691146777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490691146777</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ui scherm ingame + timer skills">
+      <created>1491211613296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491211613296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lives, kills/deaths">
+      <created>1491215034306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491215034306</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lives, kills/deaths">
+      <created>1491216243663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1491216243663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tab kill/death scherm">
+      <created>1491217437927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491217437927</updated>
+    </task>
+    <task id="LOCAL-00005" summary="overlay en game samengevoegd">
+      <created>1491226272520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491226272520</updated>
+    </task>
+    <task id="LOCAL-00006" summary="timers cooldown fixed">
+      <created>1491294658780</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491294658780</updated>
+    </task>
+    <task id="LOCAL-00007" summary="game over screen + from lobby to game screen added">
+      <created>1491302747117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491302747117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="skill toegevoegd">
+      <created>1491818792787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1491818792787</updated>
+    </task>
+    <task id="LOCAL-00009" summary="skill naam veranderd">
+      <created>1491821745884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1491821745884</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tweede poppetje + skill animation">
+      <created>1491829108034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1491829108034</updated>
+    </task>
+    <task id="LOCAL-00011" summary="tweede poppetje kan lopen">
+      <created>1491830756486</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1491830756486</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fireball werkt tegen tweede speler">
+      <created>1491899538826</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1491899538826</updated>
+    </task>
+    <task id="LOCAL-00013" summary="animaties verplaats naar juiste klassen">
+      <created>1491902442882</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1491902442882</updated>
+    </task>
+    <task id="LOCAL-00014" summary="contains veranderd naar intersect. hitbox klopt nu">
+      <created>1491906040938</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491906040940</updated>
+    </task>
+    <task id="LOCAL-00015" summary="tweede skill toegevoegd. moet nog nieuwe animatie bij + aanvallen tegenhouden">
+      <created>1492102364196</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1492102364196</updated>
+    </task>
+    <task id="LOCAL-00016" summary="tweede skill houdt aanvallen tegen. moet alleen nog nieuw skill plaatje bij en animatie">
+      <created>1492161877901</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1492161877901</updated>
+    </task>
+    <task id="LOCAL-00017" summary="animatie skill 2 toegevoegd aan unit screen en in game">
+      <created>1492460685717</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1492460685717</updated>
+    </task>
+    <task id="LOCAL-00018" summary="laatste aanpassingen voor presentatie.">
+      <created>1492499906675</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1492499906675</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added size for skills/units. changed skills and players to lists">
+      <created>1494233031111</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1494233031111</updated>
+    </task>
+    <task id="LOCAL-00020" summary="code verbeterd">
+      <created>1494234445732</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1494234445732</updated>
+    </task>
+    <task id="LOCAL-00021" summary="merge">
+      <created>1494234646601</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1494234646601</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Skills werken weer">
+      <created>1494234992504</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1494234992504</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added comments to code">
+      <created>1494236145750</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1494236145750</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fixed graphics 300 fps+ atm">
+      <created>1494244347201</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1494244347201</updated>
+    </task>
+    <task id="LOCAL-00025" summary="push voor mark">
+      <created>1494245193742</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1494245193742</updated>
+    </task>
+    <task id="LOCAL-00026" summary="push voor mark">
+      <created>1494245215371</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1494245215371</updated>
+    </task>
+    <task id="LOCAL-00027" summary="push voor mark v2">
+      <created>1494245396173</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1494245396173</updated>
+    </task>
+    <task id="LOCAL-00028" summary="nieuwe skill">
+      <created>1494318361033</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1494318361033</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Merge branch 'master' of https://git.fhict.nl/I327544/Mercenaries&#10;&#10;# Conflicts:&#10;#&#9;src/Mercenaries/Classes/Characters/Skills/AbstractSkill.java&#10;#&#9;src/Mercenaries/ui/Play.java">
+      <created>1494318430957</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1494318430957</updated>
+    </task>
+    <task id="LOCAL-00030" summary="SkillSonicBomb werkt">
+      <created>1494322766428</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1494322766429</updated>
+    </task>
+    <task id="LOCAL-00031" summary="SkillSonicBomb werkt">
+      <created>1494330519372</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1494330519372</updated>
+    </task>
+    <task id="LOCAL-00032" summary="merge">
+      <created>1494332770401</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1494332770401</updated>
+    </task>
+    <task id="LOCAL-00033" summary="lopen werkt weer, tekenen verbeterd">
+      <created>1494874797463</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1494874797463</updated>
+    </task>
+    <task id="LOCAL-00034" summary="tekenen teams tab verbeterd">
+      <created>1494925845377</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1494925845378</updated>
+    </task>
+    <task id="LOCAL-00035" summary="timer toegevoegd zodat skills maar 1x dmg doen per x seconden">
+      <created>1494927524465</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1494927524465</updated>
+    </task>
+    <task id="LOCAL-00036" summary="commit voor mark">
+      <created>1494940834508</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1494940834508</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add mercenary points after a finished game">
+      <created>1495447192173</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1495447192174</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add mercenary points after a finished game">
+      <created>1495452267331</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1495452267331</updated>
+    </task>
+    <task id="LOCAL-00039" summary="improved game">
+      <created>1495454797636</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1495454797636</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Merge branch 'master' of https://git.fhict.nl/I327544/Mercenaries&#10;&#10;# Conflicts:&#10;#&#9;out/production/Mercenaries/mercenaries/classes/Game$1.class&#10;#&#9;out/production/Mercenaries/mercenaries/classes/Game.class&#10;#&#9;out/production/Mercenaries/mercenaries/classes/characters/AbstractUnit.class&#10;#&#9;out/production/Mercenaries/mercenaries/ui/ChooseUnit.class&#10;#&#9;out/production/Mercenaries/mercenaries/ui/Main.class&#10;#&#9;out/production/Mercenaries/mercenaries/ui/Play.class">
+      <created>1495455021750</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1495455021750</updated>
+    </task>
+    <task id="LOCAL-00041" summary="animaties toegevoegd, skill 2 veranderd naar &quot;Orange&quot; healt 30. cyborg veranderd naar pirate">
+      <created>1495536754273</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1495536754273</updated>
+    </task>
+    <task id="LOCAL-00042" summary="animatie images veranderd naar spritesheets. skillfireball spritesheet is alleen nog maar 1 kant op">
+      <created>1495545593438</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1495545593438</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_Mercenaries - 2017.04.12 at 13h 40m 52s.xml">
+      <configuration name="All in Mercenaries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Mercenaries - 2017.04.18 at 08h 34m 02s.xml">
+      <configuration name="All in Mercenaries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Mercenaries - 2017.04.18 at 09h 37m 28s.xml">
+      <configuration name="All in Mercenaries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Mercenaries - 2017.04.18 at 09h 38m 22s.xml">
+      <configuration name="All in Mercenaries" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Mercenaries - 2017.04.18 at 14h 28m 19s.xml">
+      <configuration name="All in Mercenaries" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3657984" sideWeight="0.4500537" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49285713" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3975085" sideWeight="0.4763695" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19705549" sideWeight="0.49570355" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28425822" sideWeight="0.21858217" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.4699248" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3657984" sideWeight="0.5499463" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.50714284" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.4935553" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1482277" sideWeight="0.49303135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.49791014" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33635333" sideWeight="0.5220193" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2518797" sideWeight="0.5069686" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="contains veranderd naar intersect. hitbox klopt nu" />
+    <MESSAGE value="tweede skill toegevoegd. moet nog nieuwe animatie bij + aanvallen tegenhouden" />
+    <MESSAGE value="tweede skill houdt aanvallen tegen. moet alleen nog nieuw skill plaatje bij en animatie" />
+    <MESSAGE value="animatie skill 2 toegevoegd aan unit screen en in game" />
+    <MESSAGE value="laatste aanpassingen voor presentatie." />
+    <MESSAGE value="added size for skills/units. changed skills and players to lists" />
+    <MESSAGE value="code verbeterd" />
+    <MESSAGE value="Skills werken weer" />
+    <MESSAGE value="added comments to code" />
+    <MESSAGE value="fixed graphics 300 fps+ atm" />
+    <MESSAGE value="push voor mark" />
+    <MESSAGE value="push voor mark v2" />
+    <MESSAGE value="nieuwe skill" />
+    <MESSAGE value="Merge branch 'master' of https://git.fhict.nl/I327544/Mercenaries&#10;&#10;# Conflicts:&#10;#&#9;src/Mercenaries/Classes/Characters/Skills/AbstractSkill.java&#10;#&#9;src/Mercenaries/ui/Play.java" />
+    <MESSAGE value="SkillSonicBomb werkt" />
+    <MESSAGE value="merge" />
+    <MESSAGE value="lopen werkt weer, tekenen verbeterd" />
+    <MESSAGE value="tekenen teams tab verbeterd" />
+    <MESSAGE value="timer toegevoegd zodat skills maar 1x dmg doen per x seconden" />
+    <MESSAGE value="commit voor mark" />
+    <MESSAGE value="add mercenary points after a finished game" />
+    <MESSAGE value="improved game" />
+    <MESSAGE value="Merge branch 'master' of https://git.fhict.nl/I327544/Mercenaries&#10;&#10;# Conflicts:&#10;#&#9;out/production/Mercenaries/mercenaries/classes/Game$1.class&#10;#&#9;out/production/Mercenaries/mercenaries/classes/Game.class&#10;#&#9;out/production/Mercenaries/mercenaries/classes/characters/AbstractUnit.class&#10;#&#9;out/production/Mercenaries/mercenaries/ui/ChooseUnit.class&#10;#&#9;out/production/Mercenaries/mercenaries/ui/Main.class&#10;#&#9;out/production/Mercenaries/mercenaries/ui/Play.class" />
+    <MESSAGE value="animaties toegevoegd, skill 2 veranderd naar &quot;Orange&quot; healt 30. cyborg veranderd naar pirate" />
+    <MESSAGE value="animatie images veranderd naar spritesheets. skillfireball spritesheet is alleen nog maar 1 kant op" />
+    <option name="LAST_COMMIT_MESSAGE" value="animatie images veranderd naar spritesheets. skillfireball spritesheet is alleen nog maar 1 kant op" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/interfaces/domain/IAbstractSkill.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/characters/Pirate.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/skills/SkillOrange.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/slick.jar!/org/newdawn/slick/Image.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/slick.jar!/org/newdawn/slick/SpriteSheet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/skills/AbstractSkill.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/skills/SkillFirewall.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/skills/SkillFireball.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/ui/Play.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/ui/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/skills/SkillBomb.java" />
+    <entry file="file://$PROJECT_DIR$/src/mercenaries/classes/skills/Bomb.java" />
+    <entry file="file://$PROJECT_DIR$/src/Database/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/mercenaries/classes/AccountTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/collections/FXCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="351" column="0" lean-forward="false" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/Waarde.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/lobby.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/Cryptography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/RepAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/IDBAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="121" lean-forward="false" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Register.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="84" column="32" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="84" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/Soort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1657" column="0" lean-forward="false" selection-start-line="1657" selection-start-column="0" selection-end-line="1657" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="197" column="0" lean-forward="false" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toepen/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/ISpeler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="89" column="50" lean-forward="false" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/css/StyleableBooleanProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/beans/property/BooleanPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="1152" column="0" lean-forward="false" selection-start-line="1152" selection-start-column="0" selection-end-line="1152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/LobbyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="61" column="66" lean-forward="false" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2725#2726#0" expanded="false" />
+            <element signature="e#2752#2753#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/ILobbyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/ILobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="155" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="155" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="42" column="51" lean-forward="true" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/LobbyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/ISpel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="73" lean-forward="false" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/play.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="83" column="14" lean-forward="false" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/room.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="95" lean-forward="false" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toepen/Lobby.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="57" column="66" lean-forward="false" selection-start-line="57" selection-start-column="66" selection-end-line="57" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toepen/Spel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="170" column="157" lean-forward="false" selection-start-line="170" selection-start-column="157" selection-end-line="170" selection-end-column="157" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/PlayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="150" column="22" lean-forward="false" selection-start-line="150" selection-start-column="22" selection-end-line="150" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GameServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toepen/Kaart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toepen/Speler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="140" column="21" lean-forward="false" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitTests/Toepen/SpelerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
